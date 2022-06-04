@@ -28,7 +28,7 @@ const Home = () => {
           <Grid item xs={12}>
             <h1>Home</h1>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <TextField
               label="Ingrese su correo"
               name="email"
@@ -37,7 +37,7 @@ const Home = () => {
               onChange={handleInputChange}
             />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <TextField
               label="Ingrese su nombre"
               name="name"
